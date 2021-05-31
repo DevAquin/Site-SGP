@@ -37,7 +37,9 @@ nav{
 	display: flex;
 	flex-direction:column;
 	align-items: center;
-	background-color: #2003a1;
+	background-color:#2003a1;
+	border-top:5px solid #0e0247;
+	border-bottom:5px solid #0e0247;
 
 }
 /*mudando estilo somente do "a" que pertence ao nav*/
@@ -104,8 +106,8 @@ Sobre
 	align-items: center;
 	text-align:center;
 	padding: 0 20px 20px;
-	background-color: #2003a1;
-	color:#f1f1f1;
+	background-color: #f7f7f7;
+	color:#0e0d0d;
 
 }
 #sobre p{
@@ -114,8 +116,11 @@ Sobre
 }
 
 #sobre .botao{
-	background-color: #f1f1f1;
-	color: #4d4d4d;
+	background-color: #2003a1;
+	color: white;
+	border: 3px solid #15055c;
+	text-transform: uppercase;
+	font-size:1.25em
 }
 
 
